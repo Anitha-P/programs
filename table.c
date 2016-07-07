@@ -6,7 +6,7 @@ int n,fact;
 clrscr();
 printf("\n enter the number  :  ");
 scanf("%d",&n);
-for(int i=1;i<n;i++)
+for(int i=1;i<10;i++)
 fact=n*i;
 printf("%d * %d =%d",i,n,fact);
 getch();
